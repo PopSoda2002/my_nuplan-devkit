@@ -25,6 +25,7 @@ from bokeh.plotting.figure import Figure
 from bokeh.server.callbacks import PeriodicCallback
 from bokeh.util.callback_manager import EventCallback
 from selenium import webdriver
+from selenium.webdriver.chrome.service import Service
 from tornado import gen
 from tqdm import tqdm
 
